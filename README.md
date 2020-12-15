@@ -8,3 +8,5 @@ Uses:
 - CSS3
 - Flexbox
 - Bootstrap
+
+check it out at: shootthezombies.com
