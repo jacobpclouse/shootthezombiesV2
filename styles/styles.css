@@ -1,0 +1,147 @@
+/* Reset */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, caption {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+
+/* Global */
+
+:root {
+
+    /* Colors */
+
+    --clr-c0: #bac6ba;
+    --clr-c1: #404A57;
+    --clr-c2: #FDFDFD;
+    --clr-a1: #2B0195;
+    --clr-a2: #050028;
+    --clr-highlight: #0de1f0;
+    --clr-blood: #f01212;
+
+    /* Fonts */
+
+    --heading: 'Special Elite', cursive;
+    --font-1: 'Raleway', sans-serif;
+    --font-2: 'Dosis', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: var(--font-2);
+}
+
+/* General Selectors */
+
+h1 {
+    text-align: center;
+    margin: 0;
+    padding-top: .55em;
+    padding-bottom: .25em;
+    background-color: var(--clr-a2);
+    color: var(--clr-c2);
+    font-family: var(--heading);
+    font-size: 2.5rem;
+    letter-spacing: .75em;  
+}
+
+h2 {
+    text-align: center;
+    font-size: 2em;
+}
+
+p {
+    text-align: center;
+    color: var(--clr-c1);
+}
+
+/* buttons & a tags */
+
+#mainBTN {
+    background-color: var(--clr-a2);
+    font-size: 1.55rem;
+}
+
+#secondBTN {
+    background-color: var(--clr-c1);
+    font-size: 1.25rem;
+}
+
+#mainBTN:hover, #secondBTN:hover {
+    color: var(--clr-highlight);
+    transition: color .75s;
+}
+
+
+/* Named Containers  */
+
+.wrapper1 {
+    clear: both;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--clr-a2);
+    
+}
+
+.landscape {
+    background-color: var(--clr-c2);
+    width: 100%;
+    height: 100vh;
+    border-top-left-radius: 1.75em;
+    
+}
+
+.info, .about-us, .legal, .contact {
+    font-size: 1.25em;
+}
+
+.body {
+    font-family: var(--font-1);
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.color-main {
+    color: var(--clr-a2);
+}
+
+.change {
+    font-size: 1.1rem;
+    color: var(--clr-a2);
+}
+
+.bold:hover {
+    color: var(--clr-blood);
+    transition: ease-in-out color .75s;
+}
+
+
+/* Image Effects */
+.image {
+    filter: contrast(125%) brightness(103%)
+}
+
+
+/* Media Queries */
+
+@media (min-width: 800px)
+{
+    h1 {
+        font-size: 3.5rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+}

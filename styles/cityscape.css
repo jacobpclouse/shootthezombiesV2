@@ -1,0 +1,267 @@
+/* Cityscape Css*/
+
+
+.city-bottom {
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--clr-a2);
+    width: 100vw;
+    height: auto;
+    
+}
+
+.city-bottom a {
+    font-size: 1.25em;
+    color: var(--clr-c0);
+    text-decoration: none;
+    padding-bottom: 5px;
+}
+
+.city-bottom a:hover{
+    color: var(--clr-highlight);
+    transition: color .75s ease-in-out;
+}
+
+
+@media (min-width: 800px)
+{
+    .city-background {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    background-color: var(--clr-a1);
+    width: 100vw;
+    height: 400px;
+    border-top-left-radius: 1.75em;
+    background: linear-gradient( var(--clr-a1) 80%, var(--clr-a2));
+
+}
+
+.buildings {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: end;
+    width: 100vw;
+    height: 400px;
+    border-top-right-radius: 1.75em;
+}
+
+
+/* Buildings */
+
+.building-1 {
+    display: flex;
+    justify-content: space-around;
+    height: 20vh;
+    width: 10vw;
+    margin: 0 15px;
+    background-color: var(--clr-a2);
+    border-top-left-radius: 25%;
+    border-top-right-radius: 10%;
+    
+}
+
+.building-2 {
+    display: flex;
+    justify-content: center;
+    height: 40vh;
+    width: 10vw;
+    margin-right: 0;
+    background-color: var(--clr-c0);
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+    background: linear-gradient( var(--clr-c0) 80%, var(--clr-a2));
+}
+
+.building-3 {
+    display: flex;
+    justify-content: flex-end;
+    height: 15vh;
+    width: 10vw;
+    margin-left: 0;
+    margin-right: 20px;
+    background-color: var(--clr-c1);
+    border-top-left-radius: 5%;
+    border-top-right-radius: 35%;
+    background: linear-gradient( var(--clr-c1) 70%, var(--clr-a2));
+}
+
+.building-4 {
+    display: flex;
+    justify-content: space-around;
+    height: 30vh;
+    width: 10vw;
+    margin-right: 10px;
+    background-color: var(--clr-a2);
+    border-top-left-radius: 10%;
+    border-top-right-radius: 25%;
+    
+}
+
+.building-5 {
+    display: flex;
+    justify-content: flex-start;
+    height: 25vh;
+    width: 10vw;
+    background-color: var(--clr-c1);
+    border-top-left-radius: 35%;
+    border-top-right-radius: 5%;
+    background: linear-gradient( var(--clr-c1) 80%, var(--clr-a2));
+}
+
+.building-6 {
+    display: flex;
+    justify-content: center;
+    height: 10vh;
+    width: 10vw;
+    margin: 0 0;
+    background-color: var(--clr-c0);
+    border-top-left-radius: 20%;
+    border-top-right-radius: 20%;
+    background: linear-gradient( var(--clr-c0) 55%, var(--clr-a2));
+}
+
+.building-7 {
+    display: flex;
+    justify-content: flex-end;
+    height: 15vh;
+    width: 10vw;
+    margin-left: 4px;
+    background-color: var(--clr-a2);
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+}
+
+/* Moon */
+
+.moon {
+    height: 90px;
+    width: 100px;
+    margin-right: 70px;
+    margin-top: 20px;
+    border-radius: 50%;
+    background-color: var(--clr-c2);
+}
+
+.moon-inset {
+    height: 100%;
+    width: 70%;
+    border-radius: 50%;
+    background-color: var(--clr-a1);
+}
+
+/* Blood */
+
+.blood-1-a {
+    background-color: var(--clr-highlight);
+    width: 30%;
+    height: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+
+.blood-1-b {
+    background-color: var(--clr-highlight);
+    width: 20%;
+    height: 35%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+
+.blood-2-a {
+    background-color: var(--clr-highlight);
+    width: 33%;
+    height: 35%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+
+.blood-2-b {
+    background-color: var(--clr-highlight);
+    width: 33%;
+    height: 40%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+
+.blood-3-a {
+    background-color: var(--clr-highlight);
+    width: 30%;
+    height: 35%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+
+.blood-3-b {
+    background-color: var(--clr-highlight);
+    width: 30%;
+    height: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+
+.blood-4-a {
+    background-color: var(--clr-highlight);
+    width: 30%;
+    height: 40%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+
+.blood-4-b {
+    background-color: var(--clr-highlight);
+    width: 35%;
+    height: 55%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+
+.blood-5-a {
+    background-color: var(--clr-highlight);
+    width: 30%;
+    height: 55%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+
+.blood-5-b {
+    background-color: var(--clr-highlight);
+    width: 30%;
+    height: 35%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+
+.blood-6-a {
+    background-color: var(--clr-highlight);
+    width: 30%;
+    height: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+
+.blood-6-b {
+    background-color: var(--clr-highlight);
+    width: 30%;
+    height: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+
+.blood-7-a {
+    background-color: var(--clr-highlight);
+    width: 30%;
+    height: 45%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+
+.blood-7-b {
+    background-color: var(--clr-highlight);
+    width: 30%;
+    height: 55%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+}
